@@ -1,0 +1,246 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cookie Block */
+.uc-cookie-block {
+  background-color: #525252;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Wrapper */
+.uc-cookie-block .uc-cookie-block-wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 15px 10px;
+}
+
+/* Headings */
+.uc-cookie-block .uc-cookie-block-wrapper h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+  text-shadow: 0 0 1px #000;
+}
+
+/* Paragraphs */
+.uc-cookie-block .uc-cookie-block-wrapper p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+/* Links */
+.uc-cookie-block .uc-cookie-block-wrapper a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper a:hover {
+  color: #87CC0F;
+}
+
+/* Continue Link */
+.uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class {
+  font-size: 15px;
+  padding: 5px 5px 5px 20px;
+  color: #87CC0F;
+  background: url("https://nusdigital.s3.amazonaws.com/image/images/400754/original/cookie-continue-icon.png") no-repeat left center;
+  background-size: 16px 16px;
+}
+
+/* Cookie Policy Content */
+#uc-cookie-policy-content {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Cookie Info Headings */
+.uc-cookie-info h1,
+.uc-cookie-info h2,
+.uc-cookie-info h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.uc-cookie-info h1 {
+  font-size: 24px;
+}
+
+.uc-cookie-info h2 {
+  font-size: 21px;
+}
+
+.uc-cookie-info h3 {
+  font-size: 15px;
+}
+
+/* Cookie Info Paragraphs */
+.uc-cookie-info p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 15px;
+}
+
+/* Responsive Design */
+
+/* Tablet View */
+@media only screen and (max-width: 980px) {
+  .uc-cookie-block .uc-cookie-block-wrapper {
+    width: 95%;
+  }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .uc-cookie-block {
+    padding: 20px 10px;
+  }
+
+  .uc-cookie-block .uc-cookie-block-wrapper h2 {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+
+  .uc-cookie-block .uc-cookie-block-wrapper p {
+    font-size: 12px;
+  }
+
+  .uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class {
+    font-size: 14px;
+    padding: 5px 5px 5px 15px;
+  }
+
+  #uc-cookie-policy-content {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .uc-cookie-info h1 {
+    font-size: 20px;
+  }
+
+  .uc-cookie-info h2 {
+    font-size: 18px;
+  }
+
+  .uc-cookie-info h3 {
+    font-size: 14px;
+  }
+
+  .uc-cookie-info p {
+    font-size: 12px;
+  }
+}
+
+/* Small Mobile View */
+@media only screen and (max-width: 480px) {
+  .uc-cookie-block .uc-cookie-block-wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .uc-cookie-block .uc-cookie-block-wrapper h2 {
+    font-size: 16px;
+  }
+
+  .uc-cookie-block .uc-cookie-block-wrapper p {
+    font-size: 11px;
+  }
+
+  .uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class {
+    font-size: 13px;
+    padding: 5px 5px 5px 10px;
+  }
+}
+
+.uc-cookie-block {
+    background: none repeat scroll 0 0 #525252
+}
+.uc-cookie-block .uc-cookie-block-wrapper {
+    margin: 0 auto;
+    width: 940px;
+    padding: 0 0 10px
+}
+.uc-cookie-block .uc-cookie-block-wrapper h2 {
+    color: #fff;
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 0 0 1px #000;
+    border: 0 none
+}
+.uc-cookie-block .uc-cookie-block-wrapper p {
+    color: #fff;
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0 0 5px
+}
+.uc-cookie-block .uc-cookie-block-wrapper a {
+    color: #fff;
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1em
+}
+.uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class {
+    color: #87CC0F;
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 5px 5px 5px 20px;
+    background: url("https://nusdigital.s3.amazonaws.com/image/images/400754/original/cookie-continue-icon.png") no-repeat left center transparent
+}
+#uc-cookie-policy-content {
+    background: none repeat scroll 0 0 #ffffff;
+    margin: 10px;
+    padding: 0
+}
+.uc-cookie-info h1 {
+    margin: 10px 0;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold
+}
+.uc-cookie-info h2, .uc-cookie-info h3 {
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold
+}
+.uc-cookie-info h1 {
+    font-size: 24px
+}
+.uc-cookie-info h2 {
+    font-size: 21px
+}
+.uc-cookie-info h3 {
+    font-size: 15px
+}
+.uc-cookie-info p {
+    font-size: 13px;
+    margin: 0 0 10px 0
+}
+@media only screen and (max-width: 980px) {
+    .uc-cookie-block .uc-cookie-block-wrapper {
+        margin: 0 auto;
+        padding: 0 0 10px;
+        width: 95%
+    }
+}
