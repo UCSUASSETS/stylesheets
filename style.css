@@ -1,0 +1,188 @@
+/* Import Font Awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+  font-family: "amsiregular", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Wrapper for Content */
+.header-wrap,
+.menu-wrap,
+.content,
+.cut {
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #0e1728;
+  padding: 10px 0;
+  color: #fff;
+}
+
+/* Logo */
+#union-logo {
+  height: 80px;
+  width: 230px;
+  margin: 20px 0;
+}
+
+#union-logo img {
+  max-height: 100%;
+  width: auto;
+}
+
+/* Navigation Menu */
+.menu {
+  background-color: #0e1728;
+  padding: 10px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu ul li a:hover {
+  background-color: #31c5f4;
+  border-radius: 5px;
+}
+
+/* Accordion */
+.accordion .page-title {
+  background-color: #0e1728;
+  color: #fff;
+  padding: 15px;
+  border: 2px solid #0e1728;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accordion .page-title:hover {
+  background-color: #31c5f4;
+}
+
+/* Social Media */
+.socialMedia {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.socialMedia li {
+  list-style: none;
+}
+
+.socialMedia li a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+}
+
+/* Footer */
+.footer {
+  background-color: #0e1728;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer a {
+  color: #31c5f4;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  background-color: #31c5f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #0e1728;
+}
+
+/* Responsive Design */
+
+/* Tablet View */
+@media (max-width: 768px) {
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #union-logo {
+    height: 60px;
+    width: 180px;
+  }
+
+  .socialMedia {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .accordion .page-title {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .header {
+    text-align: center;
+  }
+
+  #union-logo {
+    height: 50px;
+    width: 150px;
+  }
+
+  .menu ul {
+    gap: 5px;
+  }
+
+  .menu ul li a {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px;
+  }
+}

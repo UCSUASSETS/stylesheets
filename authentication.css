@@ -1,0 +1,178 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Century Gothic', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+/* Basic Wrapper */
+.uc-basic-details-wrapper,
+.uc-additional-details-wrapper {
+  padding: 10px;
+  border: 1px solid #999;
+  border-top: none;
+  margin-top: -1px;
+}
+
+/* Headings */
+.registration-form-wrapper h2,
+.uc-basic-details h2,
+.uc-additional-details h2 {
+  background: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Links */
+.uc-basic-details h2 a,
+.uc-additional-details h2 a {
+  background-color: #999;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.uc-basic-details h2 a:hover,
+.uc-additional-details h2 a:hover {
+  background-color: #777;
+}
+
+/* Buttons */
+input[type="submit"],
+button,
+.highlight-button {
+  background-color: #e46b13;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover,
+.highlight-button:hover {
+  background-color: #d03e00;
+}
+
+/* Error Messages */
+.signin-block span.error,
+.signin-block p.error {
+  background-color: #ffd7d7;
+  color: #d8000c;
+  padding: 10px;
+  border: 1px solid #d8000c;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Forms */
+.registration-form {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.registration-form ol li {
+  margin-bottom: 15px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Profile Action */
+.profile_action.floatRight {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Medium Screens (Tablets) */
+@media (max-width: 768px) {
+  .registration-form-wrapper h2,
+  .uc-basic-details h2,
+  .uc-additional-details h2 {
+    font-size: 1.3rem;
+  }
+
+  .registration-form input[type="text"],
+  .registration-form input[type="password"],
+  .registration-form textarea {
+    font-size: 0.9rem;
+  }
+
+  input[type="submit"],
+  button,
+  .highlight-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .profile_action.floatRight {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .registration-form-wrapper h2,
+  .uc-basic-details h2,
+  .uc-additional-details h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .uc-basic-details h2 a,
+  .uc-additional-details h2 a {
+    padding: 8px;
+    text-align: center;
+  }
+
+  .registration-form input[type="text"],
+  .registration-form input[type="password"],
+  .registration-form textarea {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  input[type="submit"],
+  button,
+  .highlight-button {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .signin-block span.error,
+  .signin-block p.error {
+    font-size: 0.9rem;
+  }
+}

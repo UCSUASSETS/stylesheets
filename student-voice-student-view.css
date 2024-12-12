@@ -1,0 +1,254 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "CenturyGothic", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Wrapper and Containers */
+#uc-sv-main-wrapper {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1200px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* Headers and Titles */
+#uc-sv-main-wrapper h1 {
+  font-family: "CenturyGothicBold", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #000000;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.uc-sv-module-idea-wrapper h2 {
+  font-size: 20px;
+  font-family: "CenturyGothicBold", Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+  color: #000;
+}
+
+/* Navigation Bar */
+#uc-sv-nav-tab-panel {
+  background: #e46b13;
+  padding: 10px 0;
+}
+
+#uc-sv-nav-tab-panel ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#uc-sv-nav-tab-panel ul li {
+  display: inline;
+}
+
+#uc-sv-nav-tab-panel ul li a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "CenturyGothicBold", Arial, Helvetica, sans-serif;
+}
+
+#uc-sv-nav-tab-panel ul li a:hover,
+#uc-sv-nav-tab-panel ul li.active a {
+  background-color: #fff;
+  color: #e46b13;
+  border-radius: 5px;
+}
+
+/* Buttons */
+input[type="submit"], button, .uc-sv-comment-saveButton {
+  background-color: #e46b13;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover,
+.uc-sv-comment-saveButton:hover {
+  background-color: #d03e00;
+}
+
+/* Voting and Feedback Modules */
+.uc-sv-module-voting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.uc-sv-module-voting-like,
+.uc-sv-module-voting-dislike {
+  text-align: center;
+  font-weight: bold;
+}
+
+.uc-sv-module-voting-like {
+  color: #59b200;
+}
+
+.uc-sv-module-voting-dislike {
+  color: #ea3e2b;
+}
+
+/* Search Panel */
+#uc-sv-search-panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#uc-sv-search-panel .uc-sv-search-bar {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+#uc-sv-search-panel .uc-sv-search-bar input[type="text"] {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+#uc-sv-search-panel .uc-sv-search-bar input[type="submit"] {
+  background-color: #e46b13;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Modules and Cards */
+.uc-sv-module-idea-wrapper {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.uc-sv-module-idea-wrapper p {
+  color: #555;
+}
+
+.uc-sv-module-idea-wrapper a {
+  color: #e46b13;
+  text-decoration: underline;
+}
+
+.uc-sv-module-idea-wrapper a:hover {
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #013220;
+  color: white;
+  padding: 1rem;
+}
+
+.footer a {
+  color: #90ee90;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+
+/* Medium Screens */
+@media (max-width: 1024px) {
+  #uc-sv-main-wrapper {
+    padding: 20px;
+  }
+
+  #uc-sv-search-panel {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #uc-sv-nav-tab-panel ul {
+    gap: 5px;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+  #uc-sv-nav-tab-panel ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #uc-sv-main-wrapper h1 {
+    font-size: 20px;
+  }
+
+  .uc-sv-module-idea-wrapper {
+    padding: 15px;
+  }
+
+  .uc-sv-module-voting {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  #uc-sv-main-wrapper {
+    padding: 10px;
+  }
+
+  #uc-sv-search-panel {
+    flex-direction: column;
+  }
+
+  #uc-sv-search-panel .uc-sv-search-bar {
+    width: 100%;
+  }
+
+  #uc-sv-nav-tab-panel ul {
+    gap: 3px;
+  }
+
+  .uc-sv-module-idea-wrapper {
+    padding: 10px;
+  }
+
+  .uc-sv-module-voting {
+    gap: 5px;
+  }
+}
