@@ -334,7 +334,7 @@ em strong, strong em {
 }
 .socialMedia li {
     list-style: none;
-    background-image: url("https://nusdigital.s3.amazonaws.com/image/images/412398/original/socialblue.png");
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/412398/original/socialblue.png");
     display: flex;
     margin-right: 10px;
     background-size: 90%;
@@ -391,7 +391,7 @@ em strong, strong em {
     width: 35px;
     height: 32px;
     cursor: pointer;
-    background-image: url("https://nusdigital.s3.amazonaws.com/image/images/412398/original/socialblue.png");
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/412398/original/socialblue.png");
     background-repeat: no-repeat;
     background-position: 3px -121px;
     margin-top: 5px;
@@ -616,7 +616,7 @@ a:hover.uc-sign-link {
 }
 .system-menu .system-menu-wrapper .shopping-cart-menu a:before {
     content: " ";
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412398/original/socialblue.png");
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412398/original/socialblue.png");
     background-position: 0 -153px;
     width: 30px;
     height: 33px;
@@ -742,7 +742,7 @@ a:hover.uc-sign-link {
 }
 .shopping-cart-menu a:before {
     content: " ";
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412398/original/socialblue.png");
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412398/original/socialblue.png");
     background-position: 0 -189px;
     width: 36px;
     height: 30px;
@@ -855,7 +855,7 @@ a:hover.uc-sign-link {
     border-radius: 0 0px 0 0;
     -moz-border-radius: 0 0px 0 0;
     -webkit-border-radius: 0 0px 0 0;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left transparent;
     background-position: 4px -32px;
     top: 4px;
     right: 0;
@@ -886,7 +886,7 @@ a:hover.uc-sign-link {
 }
 .menu ul li span {
     padding: 15px 30px 15px 15px;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400981/original/navigation-arrow.png") no-repeat scroll right center transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400981/original/navigation-arrow.png") no-repeat scroll right center transparent;
     color: #ffffff;
     font-size: 1.8rem
 }
@@ -926,7 +926,7 @@ a:hover.uc-sign-link {
     font-size: 1.8rem
 }
 #top-nav-level-one-home-icon {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400977/original/icon-home.png") no-repeat 0 9px transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400977/original/icon-home.png") no-repeat 0 9px transparent;
     padding-left: 15px;
     text-indent: -9999px;
     overflow: hidden
@@ -1587,7 +1587,7 @@ span.success, p.success {
 }
 .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
     cursor: default;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400967/original/disabled-grid-arrows.png") no-repeat scroll 0 -81px transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400967/original/disabled-grid-arrows.png") no-repeat scroll 0 -81px transparent;
     width: 55px;
     height: 75px;
     border: 0 none;
@@ -1595,7 +1595,7 @@ span.success, p.success {
 }
 .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
     cursor: default;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400967/original/disabled-grid-arrows.png") no-repeat scroll 0 0px transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400967/original/disabled-grid-arrows.png") no-repeat scroll 0 0px transparent;
     width: 55px;
     height: 75px;
     border: 0 none;
@@ -1614,7 +1614,7 @@ span.success, p.success {
 .two-col h2 {
     font-family: "amsibold", sans-serif;
     font-weight: bold;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400988/original/top-title-shadow.png") no-repeat scroll top center transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400988/original/top-title-shadow.png") no-repeat scroll top center transparent;
     text-transform: uppercase;
     padding-top: 25px;
     text-align: left;
@@ -1632,7 +1632,7 @@ span.success, p.success {
 .three-column-without-h2 h2 .column-content {
     font-family: "amsibold", sans-serif;
     font-weight: bold;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400988/original/top-title-shadow.png") no-repeat scroll top center transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400988/original/top-title-shadow.png") no-repeat scroll top center transparent;
     padding-top: 0px;
     text-align: left;
     background-size: contain
@@ -1678,7 +1678,7 @@ span.success, p.success {
 .three-column .column-content {
     font-family: "amsibold", sans-serif;
     font-weight: bold;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400988/original/top-title-shadow.png") no-repeat scroll top center transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400988/original/top-title-shadow.png") no-repeat scroll top center transparent;
     padding-top: 0px;
     text-align: left;
     background-size: contain
@@ -2310,7 +2310,7 @@ span.success, p.success {
     margin: 5px
 }
 .union-footer .fourcol.column-content, .union-footer .sixcol.column-content, .union-footer .threecol.column-content {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400971/original/footer-hr.png") no-repeat scroll right top transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400971/original/footer-hr.png") no-repeat scroll right top transparent;
     min-height: 150px
 }
 .union-footer .fourcol.column-content.last, .union-footer .sixcol.column-content.last, .union-footer .threecol.column-content.last {
@@ -2429,7 +2429,7 @@ span.success, p.success {
     font-size: 1.6rem
 }
 .tree-navigation.page-heading-level-one {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400986/original/tree-nav-top.png") top center no-repeat #384352
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400986/original/tree-nav-top.png") top center no-repeat #384352
 }
 .tree-navigation {
     font-family: "amsiregular", sans-serif;
@@ -2489,7 +2489,7 @@ span.success, p.success {
 .tree-navigation ul.nav-level-one li h3 a {
     font-family: "amsibold", sans-serif;
     font-weight: bold;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400978/original/leftmenu-title-arrow.png") no-repeat scroll right center transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400978/original/leftmenu-title-arrow.png") no-repeat scroll right center transparent;
     padding: 0px;
     font-size: 0.95em;
     color: #ffffff;
@@ -2508,11 +2508,11 @@ span.success, p.success {
     color: #666666
 }
 .tree-navigation .nav-level-one li a {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400968/original/black-down-arrow-.png") no-repeat scroll center left transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400968/original/black-down-arrow-.png") no-repeat scroll center left transparent;
     padding-left: 20px
 }
 .tree-navigation .nav-level-one li.selected a {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400968/original/black-down-arrow-.png") no-repeat scroll center left transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400968/original/black-down-arrow-.png") no-repeat scroll center left transparent;
     padding-left: 20px
 }
 .tree-navigation .nav-level-one li a {
@@ -2538,7 +2538,7 @@ span.success, p.success {
     background: none
 }
 .tree-navigation .nav-level-one .selected ul li a {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400969/original/black-right-arrow.png") no-repeat scroll center left transparent
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400969/original/black-right-arrow.png") no-repeat scroll center left transparent
 }
 .tree-navigation .nav-level-one .selected > a {
     color: #0e0e0e;
@@ -2556,7 +2556,7 @@ span.success, p.success {
 .tree-navigation .nav-level-three li a {
     margin: 0 5px 0 15px;
     font-weight: normal;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400969/original/black-right-arrow.png") no-repeat scroll center left transparent
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400969/original/black-right-arrow.png") no-repeat scroll center left transparent
 }
 .tree-navigation .nav-level-four li a {
     margin: 0 5px 0 30px;
@@ -2619,7 +2619,7 @@ span.success, p.success {
     border-radius: 0 0px 0 0;
     -moz-border-radius: 0 0px 0 0;
     -webkit-border-radius: 0 0px 0 0;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 4px -27px;
     top: 5px
 }
@@ -2877,7 +2877,7 @@ h1 span {
     float: left;
     padding: 10px;
     height: 40px;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 8px -25px
 }
 #event-homepage #left-panel {
@@ -3490,12 +3490,12 @@ h1 span {
     border-radius: 0 0px 0 0;
     -moz-border-radius: 0 0px 0 0;
     -webkit-border-radius: 0 0px 0 0;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 4px -25px
 }
 #uc-articles-news.uc-article-catg-module .uc-articles-module-wrapper .uc-articles-right-panel-search .uc-search-container .uc-search-articles input.clear-button {
     background-color: #0e1728;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 3px -56px;
     border-radius: 0 0 0 0;
     -moz-border-radius: 0 0 0 0;
@@ -3778,12 +3778,12 @@ h1 span {
     border-radius: 0 0px 0 0;
     -moz-border-radius: 0 0px 0 0;
     -webkit-border-radius: 0 0px 0 0;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 4px -27px
 }
 #resource-homepage .uc-resource-listing #uc-resources-right-panel-search #uc-resources-right-panel-search-wrapper .search-box-wrapper .clear-button {
     background-color: #0e1728;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 3px -56px;
     border-radius: 0 0 0 0;
     -moz-border-radius: 0 0 0 0;
@@ -3907,6 +3907,7 @@ h1 span {
 }
 #resource-homepage #uc-resource-promotion-carousel .jcarousel-next:after {
     content: "\f105";
+
     font-family: "FontAwesome";
     font-weight: normal;
     display: inline-block;
@@ -4322,13 +4323,13 @@ h1 span {
     border-color: #384352
 }
 #latest-calendar-event #calender-widget .cal-date li a {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400972/original/dot.png") repeat-x scroll center top #fff
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400972/original/dot.png") repeat-x scroll center top #fff
 }
 #latest-calendar-event #calender-widget .cal-date li a.selected {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400984/original/selected-date.png") no-repeat top center #f5f5f5
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400984/original/selected-date.png") no-repeat top center #f5f5f5
 }
 #latest-calendar-event #calender-widget .cal-date li a.nextdate {
-    background-image: url("https://nusdigital.s3.amazonaws.com/image/images/400972/original/dot.png");
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/400972/original/dot.png");
     padding: 12px 0 8px
 }
 #latest-calendar-event #calender-widget .event-available {
@@ -4369,19 +4370,19 @@ h1 span {
     font-size: 1.5rem
 }
 #latest-calendar-event #calender-widget .cal-time li.next-day-time {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400987/original/time-separator.jpg") no-repeat right center #D2E2F7
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400987/original/time-separator.jpg") no-repeat right center #D2E2F7
 }
 #latest-calendar-event #calender-widget .cal-time li {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400987/original/time-separator.jpg") no-repeat right center #f5f5f5
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400987/original/time-separator.jpg") no-repeat right center #f5f5f5
 }
 #latest-calendar-event #calender-widget .event-today-now a.now {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400973/original/clock-icon.png") no-repeat scroll center transparent
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400973/original/clock-icon.png") no-repeat scroll center transparent
 }
 #latest-calendar-event #calender-widget .event-time li {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400974/original/grid-box.png") no-repeat scroll left top transparent
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400974/original/grid-box.png") no-repeat scroll left top transparent
 }
 #latest-calendar-event #calender-widget .event-time li.last-child {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400975/original/grid-box-last-child.png") no-repeat left top transparent
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400975/original/grid-box-last-child.png") no-repeat left top transparent
 }
 #latest-calendar-event #calender-widget .event-time li.category-0 {
     background: #0e1728
@@ -4796,6 +4797,7 @@ html ul.tabs li.active a:hover {
 .uc-no-events-available-msg {
     background: transparent
 }
+
 .uc-groups-event-wrapper {
     background: transparent
 }
@@ -5010,7 +5012,7 @@ html ul.tabs li.active a:hover {
     float: left;
     padding: 10px;
     height: 40px;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 8px -25px
 }
 #left-panel .tree-navigation.club-navigation {
@@ -5633,7 +5635,7 @@ a.printButton {
 .twitter-content .page-title {
     font-family: "amsibold", sans-serif;
     font-weight: bold;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400990/original/twitter_icon-067.png") no-repeat scroll 4px 4px transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412413/original/Twitter_LogoBLUE.png") no-repeat scroll 4px 4px transparent;
     border-bottom: 0 solid #e7e7e7;
     color: #31c5f4;
     display: block;
@@ -6334,7 +6336,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
     float: left;
     padding: 10px;
     height: 35px;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 8px -28px
 }
 .uc-widget-upcoming-events-wrapper #uc-widget-upcoming-events-right-panel .uc-widget-upcoming-event-footer {
@@ -6645,7 +6647,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
 .uc-single-login .signin-block h2 {
     padding: 10% 5%;
     font-size: 50px;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400979/original/login.png") no-repeat scroll center center transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400979/original/login.png") no-repeat scroll center center transparent;
     text-align: center;
     color: #fff
 }
@@ -6845,11 +6847,11 @@ input[type="radio"] + label:empty:before {
     margin-top: 15px
 }
 #uc-sv-main-wrapper .uv-sv-idea-icon, #uc-sv-main-wrapper .uv-sv-details-header-idea {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400985/original/sv-icons.png") no-repeat scroll center left #ffffff;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400985/original/sv-icons.png") no-repeat scroll center left #ffffff;
     background-position: 0 -70px
 }
 #uc-sv-main-wrapper .uv-sv-petition-icon, #uc-sv-main-wrapper .uv-sv-details-header-petition {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400985/original/sv-icons.png") no-repeat scroll center left #ffffff;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400985/original/sv-icons.png") no-repeat scroll center left #ffffff;
     background-position: 0 0px
 }
 #uc-sv-main-wrapper .uc-sv-module-border-petition, #uc-sv-main-wrapper .uc-sv-module-border-idea {
@@ -7175,7 +7177,7 @@ input[type="radio"] + label:empty:before {
     float: right;
     padding: 10px;
     height: 35px;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 8px -28px;
     top: 0px;
     height: 35px;
@@ -7783,7 +7785,7 @@ p.inline-hints:before {
     margin-top: 0px
 }
 #myaccount-information .ninecol.uc-vol-edit-profile .uc-vol-profile-wizard li, .registration-form .ninecol.uc-vol-edit-profile .uc-vol-profile-wizard li, .contentContainer .ninecol.uc-vol-edit-profile .uc-vol-profile-wizard li, #uc-volunteer-reg-form-container .ninecol.uc-vol-edit-profile .uc-vol-profile-wizard li {
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/400982/original/profile-setup-wizard.png") no-repeat scroll transparent;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/400982/original/profile-setup-wizard.png") no-repeat scroll transparent;
     margin-right: 2%;
     width: 90px;
     height: 70px;
@@ -9642,14 +9644,14 @@ p.inline-hints:before {
     border-radius: 0 0 0 0;
     -moz-border-radius: 0 0 0 0;
     -webkit-border-radius: 0 0 0 0;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 4px -27px
 }
 #e-shop .right-panel-product-listing .noUi-handle-lower .price-display, #e-shop .right-panel-product-listing .noUi-handle-upper .price-display {
     display: none
 }
 #e-shop .right-panel-product-listing .noUi-handle {
-    background-image: url("https://nusdigital.s3.amazonaws.com/image/images/400970/original/arrow.png");
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/400970/original/arrow.png");
     background-size: 100%;
     width: 2rem
 }
@@ -9918,7 +9920,7 @@ p.inline-hints:before {
 }
 #e-shop .right-panel-product-listing .product-filter-selected .clear-filter-button .clear-filter {
     background-color: #0e1728;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 3px -56px;
     border-radius: 0 0 0 0;
     -moz-border-radius: 0 0 0 0;
@@ -10363,12 +10365,12 @@ input:focus {
     border-radius: 0 0px 0 0;
     -moz-border-radius: 0 0px 0 0;
     -webkit-border-radius: 0 0px 0 0;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 4px -27px
 }
 #uc-volunteering .uc-opp-right-panel-search .uc-opp-right-panel-search-wrapper .uc-search-opportunity .clear-button {
     background-color: #0e1728;
-    background: url("https://nusdigital.s3.amazonaws.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/412410/original/icon_spriteBLUE.png") no-repeat scroll center left #0e1728;
     background-position: 3px -56px;
     border-radius: 0 0 0 0;
     -moz-border-radius: 0 0 0 0;
@@ -11992,7 +11994,7 @@ input.smalltext {
         top: 20px
     }
     .phone-menu-icon {
-        background: url("https://nusdigital.s3.amazonaws.com/image/images/400980/original/phone-menu-icon.png") no-repeat scroll center center
+        background: url("https://assets.prod.unioncloud-internal.com/image/images/400980/original/phone-menu-icon.png") no-repeat scroll center center
     }
     .page-content-html .phone-menu, .sub-site-home-html .phone-menu, .sub-site-page-html .phone-menu {
         padding: 10px;
