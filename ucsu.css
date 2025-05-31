@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;
-0,700;
-1,400;
-1,700&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Silkscreen&display=swap");
 :root{
     --red:#e40521;
@@ -5076,11 +5073,6 @@ li .top-menu-name-wrapper:hover{
 }
 .uc-sv-comment-box{
     display:none
-}
-# HARRISON 2024 .thumbnail-image{
-    width:100%!important;
-    height:100%!important;
-    object-fit:cover!important
 }
 .timeline{
     position:relative;
