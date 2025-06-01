@@ -907,7 +907,7 @@ li.dashboard-icon:before{
     }
 }
 #nav-logo-menu-wrapper{
-    background:url(https://assets.prod.unioncloud-internal.com/image/images/607303/original/ucsu-logo-nobg.png) no-repeat!important;
+    background:url(https://assets.prod.unioncloud-internal.com/image/images/607667/original/nav-ucsu-logo.pngg) no-repeat!important;
     background-size:100%!important;
     margin:0;
     padding:0 0 10px 0
@@ -986,7 +986,7 @@ li.dashboard-icon:before{
     .menu ul li{
         margin:0
     }
-    #top-nav-level-one-student-voice,#top-nav-level-one-student-events,#top-nav-level-one-student-advice,#top-nav-level-one-student-activities,#top-nav-level-one-students-employability,#top-nav-level-one-student-democracy,#top-nav-level-one-student-engagement,#top-nav-level-one-ntsu-sports,#top-nav-level-one-ntsu-venue,#top-nav-level-one-ntsu-shop{
+    #top-nav-level-one-student-voice,#top-nav-level-one-student-events,#top-nav-level-one-student-advice,#top-nav-level-one-student-activities,#top-nav-level-one-students-employability,#top-nav-level-one-student-democracy,#top-nav-level-one-student-engagement,#top-nav-level-one-ucsu-sports,#top-nav-level-one-ucsu-venue,#top-nav-level-one-ucsu-shop{
         overflow:visible
     }
 }
@@ -5026,16 +5026,16 @@ img{
     background-repeat:no-repeat
 }
 .advertise-links-grid a.media_guide{
-    background-image:url("https://assets.prod.unioncloud-internal.com/image/images/537036/original/MEDIA_PACK_BUTTON_1.jpg")
+    background-image:url("")
 }
 .advertise-links-grid a.housing_fair{
-    background-image:url("https://assets.prod.unioncloud-internal.com/image/images/537039/original/HOUSING_FAIR_BUTTON_1.jpg")
+    background-image:url("")
 }
 .advertise-links-grid a.make_enquiry{
-    background-image:url("https://assets.prod.unioncloud-internal.com/image/images/537038/original/MAKE_AN_ENQUIRY_BUTTON_1.jpg")
+    background-image:url("")
 }
 .advertise-links-grid a.freshers_2023{
-    background-image:url("https://assets.prod.unioncloud-internal.com/image/images/537037/original/FRESHERS_ADVERTISING_BUTTON_1.jpg")
+    background-image:url("")
 }
 .advertise-links-grid a:hover{
     border-bottom:4px solid var(--black);

@@ -397,7 +397,7 @@ p#notice.success{
     background:url(https://assets.prod.unioncloud-internal.com/image/images/607451/original/footer-hr-b15d76c7c177fa7aded7eaf4251179fd0dd81eff2d5847377b76e92aadaead90.png) no-repeat scroll right center transparent
 }
 #top-nav-level-one-student-voice{
-    background:url(/images/ntsu_default/images/-stu-voice.png) no-repeat scroll top center transparent;
+    background:url(/images/default/images/-stu-voice.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -410,7 +410,7 @@ p#notice.success{
     background:none repeat scroll 0 0 #FFCD00
 }
 #top-nav-level-one-student-events{
-    background:url(/images/ntsu_default/images/-stu-ents.png) no-repeat scroll top center transparent;
+    background:url(/images/default/images/-stu-ents.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -424,7 +424,7 @@ p#notice.success{
     color:#ffffff
 }
 #top-nav-level-one-student-advice{
-    background:url(/images/ntsu_default/images/-stu-adv.png) no-repeat scroll top center transparent;
+    background:url(/images/default/images/-stu-adv.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -438,7 +438,7 @@ p#notice.success{
     color:#ffffff
 }
 #top-nav-level-one-student-activities{
-    background:url(/images/ntsu_default/images/-stu-act.png) no-repeat scroll top center transparent;
+    background:url(/images/default/images/-stu-act.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -452,7 +452,7 @@ p#notice.success{
     color:#ffffff
 }
 #top-nav-level-one-students-employability{
-    background:url(/images/ntsu_default/images/-stu-emp.png) no-repeat scroll top center transparent;
+    background:url(/images/default/images/-stu-emp.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -466,7 +466,7 @@ p#notice.success{
     color:#ffffff
 }
 #top-nav-level-one-student-democracy{
-    background:url(/images/ntsu_default/images/-stu-demo.png) no-repeat scroll top center transparent;
+    background:url(/images/default/images/-stu-demo.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -480,7 +480,7 @@ p#notice.success{
     color:#ffffff
 }
 #top-nav-level-one-student-engagement{
-    background:url(/images/ntsu_default/images/-stu-eng.png) no-repeat scroll top center transparent;
+    background:url(/images/default/images/-stu-eng.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -493,8 +493,8 @@ p#notice.success{
     background:none repeat scroll 0 0 #F29025;
     color:#ffffff
 }
-#top-nav-level-one-ntsu-sports{
-    background:url(/images/ntsu_default/images/-sport-icon.png) no-repeat scroll top center transparent;
+#top-nav-level-one-ucsu-sports{
+    background:url(/images/default/images/-sport-icon.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -503,12 +503,12 @@ p#notice.success{
     padding:0;
     cursor:pointer
 }
-.menu #ntsu-sports-menu-wrapper .top-submenu-wrapper ul{
+.menu #ucsu-sports-menu-wrapper .top-submenu-wrapper ul{
     background:none repeat scroll 0 0 #E5007F;
     color:#ffffff
 }
-#top-nav-level-one-ntsu-venue{
-    background:url(/images/ntsu_default/images/-venue-icon.png) no-repeat scroll top center transparent;
+#top-nav-level-one-ucsu-venue{
+    background:url(/images/default/images/-venue-icon.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -517,12 +517,12 @@ p#notice.success{
     padding:0;
     cursor:pointer
 }
-.menu #ntsu-venue-menu-wrapper .top-submenu-wrapper ul{
+.menu #ucsu-venue-menu-wrapper .top-submenu-wrapper ul{
     background:none repeat scroll 0 0 #8C1A31;
     color:#ffffff
 }
-#top-nav-level-one-ntsu-shop{
-    background:url(/images/ntsu_default/images/-shop-icon.png) no-repeat scroll top center transparent;
+#top-nav-level-one-ucsu-shop{
+    background:url(/images/default/images/-shop-icon.png) no-repeat scroll top center transparent;
     width:93px;
     height:40px;
     display:block;
@@ -531,7 +531,7 @@ p#notice.success{
     padding:0;
     cursor:pointer
 }
-.menu #ntsu-shop-menu-wrapper .top-submenu-wrapper ul{
+.menu #ucsu-shop-menu-wrapper .top-submenu-wrapper ul{
     background:none repeat scroll 0 0 #486BB1;
     color:#ffffff
 }
@@ -3665,7 +3665,7 @@ fieldset.group-questions-form{
     width:280px
 }
 .evo-yourvote-wrapper p input{
-    background:url(/assets/ntsu_default/images/evoting-buttons-0c21fc37911c160b9fecb4263ed41e0d9a72421c3f37434caeb120a47b8c25b8.png) no-repeat scroll left center transparent;
+    background:url(/assets/default/images/evoting-buttons-0c21fc37911c160b9fecb4263ed41e0d9a72421c3f37434caeb120a47b8c25b8.png) no-repeat scroll left center transparent;
     border-color:#CCCCCC;
     border-radius:5px 5px 5px 5px;
     -moz-border-radius:5px 5px 5px 5px;
@@ -4038,16 +4038,16 @@ fieldset.group-questions-form{
     padding:0 0 10px;
     margin:0
 }
-.myaccount-subscription-details #groupSubscriptions,.myaccount-subscription-details #eventSubscriptions{
+.myaccount-subscription-details #groupSubscriptions,.myaccount-subscription-details #eveucsubscriptions{
     background:#f7f7f7;
     margin:10px 0 0 0
 }
-#groupSubscriptions h2,#eventSubscriptions h2{
+#groupSubscriptions h2,#eveucsubscriptions h2{
     background:none repeat scroll 0 0 #FFFFFF;
     color:#f29023;
     font-size:1.1em
 }
-.myaccount-subscription-details #eventSubscriptions h3,.myaccount-subscription-details #groupSubscriptions h3{
+.myaccount-subscription-details #eveucsubscriptions h3,.myaccount-subscription-details #groupSubscriptions h3{
     background:none repeat scroll 0 0 #FFFFFF;
     color:#666666;
     margin:0;
@@ -5965,7 +5965,7 @@ a img{
         padding:0;
         line-height:1em
     }
-    #top-nav-level-one-student-voice,#top-nav-level-one-student-events,#top-nav-level-one-student-advice,#top-nav-level-one-student-activities,#top-nav-level-one-students-employability,#top-nav-level-one-student-democracy,#top-nav-level-one-student-engagement,#top-nav-level-one-ntsu-sports,#top-nav-level-one-ntsu-venue,#top-nav-level-one-ntsu-shop{
+    #top-nav-level-one-student-voice,#top-nav-level-one-student-events,#top-nav-level-one-student-advice,#top-nav-level-one-student-activities,#top-nav-level-one-students-employability,#top-nav-level-one-student-democracy,#top-nav-level-one-student-engagement,#top-nav-level-one-ucsu-sports,#top-nav-level-one-ucsu-venue,#top-nav-level-one-ucsu-shop{
         display:block;
         height:64px;
         overflow:hidden;
@@ -5994,13 +5994,13 @@ a img{
     #top-nav-level-one-student-engagement{
         background:url(/images/default/images/ipad-stu-eng.png) no-repeat scroll left top transparent
     }
-    #top-nav-level-one-ntsu-sports{
+    #top-nav-level-one-ucsu-sports{
         background:url(/images/default/images/ipad-sport-icon.png) no-repeat scroll left top transparent
     }
-    #top-nav-level-one-ntsu-venue{
+    #top-nav-level-one-ucsu-venue{
         background:url(/images/default/images/ipad-venue-icon.png) no-repeat scroll left top transparent
     }
-    #top-nav-level-one-ntsu-shop{
+    #top-nav-level-one-ucsu-shop{
         background:url(/images/default/images/ipad-shop-icon.png) no-repeat scroll left top transparent
     }
     #union-logo{
@@ -6689,7 +6689,7 @@ a img{
         padding:0;
         border-bottom:1px solid #FFFFFF
     }
-    #top-nav-level-one-student-voice,#top-nav-level-one-student-events,#top-nav-level-one-student-advice,#top-nav-level-one-student-activities,#top-nav-level-one-students-employability,#top-nav-level-one-student-democracy,#top-nav-level-one-student-engagement,#top-nav-level-one-ntsu-sports,#top-nav-level-one-ntsu-venue,#top-nav-level-one-ntsu-shop{
+    #top-nav-level-one-student-voice,#top-nav-level-one-student-events,#top-nav-level-one-student-advice,#top-nav-level-one-student-activities,#top-nav-level-one-students-employability,#top-nav-level-one-student-democracy,#top-nav-level-one-student-engagement,#top-nav-level-one-ucsu-sports,#top-nav-level-one-ucsu-venue,#top-nav-level-one-ucsu-shop{
         width:93px;
         height:35px;
         display:block;
@@ -6729,13 +6729,13 @@ a img{
     #top-nav-level-one-student-engagement{
         background:url(/images/default/images/stu-eng.png) no-repeat scroll top center transparent
     }
-    #top-nav-level-one-ntsu-sports{
+    #top-nav-level-one-ucsu-sports{
         background:url(/images/default/images/sport-icon.png) no-repeat scroll top center transparent
     }
-    #top-nav-level-one-ntsu-venue{
+    #top-nav-level-one-ucsu-venue{
         background:url(/images/default/images/venue-icon.png) no-repeat scroll top center transparent
     }
-    #top-nav-level-one-ntsu-shop{
+    #top-nav-level-one-ucsu-shop{
         background:url(/images/default/images/shop-icon.png) no-repeat scroll top center transparent
     }
     .column{
