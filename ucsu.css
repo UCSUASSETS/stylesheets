@@ -429,9 +429,6 @@ a.buttonLink:hover,.choosePlan:hover,.sign-up .buttonrow input:hover,.confirmati
     transition-duration:.2s;
     color:var(--green)
 }
-.content .row .content-wrap .section{
-    margin:0!important
-}
 .header-wrap,#top-menu{
     max-width:1280px;
     width:100%;
