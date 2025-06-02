@@ -1616,7 +1616,7 @@ span.success,p.success{
     top:10px
 }
 #uc-left-navigation li a{
-    background:rgba(0,0,0,0) none repeat scroll 0 0
+    background: var(--unionpurple);
 }
 #uc-left-navigation li ul li a{
     background:transparent none repeat scroll 0 0;
