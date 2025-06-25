@@ -13,7 +13,7 @@
     --lightteal:#cce7e7;
     --pink:#e50076;
     --lightpink:#fcc8de;
-    --unionpurple:#657DBD;
+    --unionpurple:#29235c;
     --lightunionpurple:#c9c8d7;
     --grey:#6e7377;
     --lightgrey:#dbdcdd;
@@ -176,25 +176,25 @@ blockquote{
     }
 }
 #uc-page-id-your-union h1,#uc-page-id-sport h2,#uc-page-id-sport h3,#uc-page-id-sport h4{
-    color:var(--unionpurple)!important
+    color:var(--pink)!important
 }
 #uc-page-id-student-voice h1,#uc-page-id-supportadvice h2,#uc-page-id-supportadvice h3,#uc-page-id-supportadvice h4{
-    color:var(--unionpurple)
+    color:var(--teal)
 }
 #uc-page-id-opportunities h1,#uc-page-id-opportunities h2,#uc-page-id-opportunities h3,#uc-page-id-opportunities h4{
-    color:var(--unionpurple)
+    color:var(--purple)
 }
 #uc-page-id-whats-on h1,#uc-page-id-about-us h2,#uc-page-id-about-us h3,#uc-page-id-about-us h4{
     color:var(--unionpurple)
 }
 #uc-page-id-supportadvice h1,#uc-page-id-whats-on h2,#uc-page-id-whats-on h3,#uc-page-id-whats-on h4{
-    color:var(--unionpurple)
+    color:var(--red)
 }
 #uc-page-id-shop h1,#uc-page-id-student-voice h2,#uc-page-id-student-voice h3,#uc-page-id-student-voice h4{
-    color:var(--unionpurple)
+    color:var(--green)
 }
 #uc-page-id-welcome h1,#uc-page-id-eat-drink-shop h2,#uc-page-id-eat-drink-shop h3,#uc-page-id-eat-drink-shop h4{
-    color:var(--unionpurple)
+    color:var(--orange)
 }
 .button a{
     font-size:1.2rem;
@@ -429,6 +429,9 @@ a.buttonLink:hover,.choosePlan:hover,.sign-up .buttonrow input:hover,.confirmati
     transition-duration:.2s;
     color:var(--green)
 }
+.content .row .content-wrap .section{
+    margin:0!important
+}
 .header-wrap,#top-menu{
     max-width:1280px;
     width:100%;
@@ -638,28 +641,25 @@ div#nineeighty-wrap{
     a.uc-sign-link:hover{
         border:3px solid var(--unionpurple)!important
     }
-    li#about-us-menu-wrapper:hover{
-        background:var(--lightunionpurple)
+    li#yourunion-menu-wrapper:hover{
+    background:var(--unionpurple)
     }
-    li#student-voice-menu-wrapper:hover{
-        background:var(--green)
-    }
-    li#eat-drink-shop-menu-wrapper:hover{
-        background:var(--orange)
-    }
-    li#whats-on-menu-wrapper:hover{
-        background:var(--red)
+    li#studentvoice-menu-wrapper:hover{
+    background:var(--unionpurple)
     }
     li#opportunities-menu-wrapper:hover{
-        background:var(--purple)
+        background:var(--unionpurple)
     }
     li#supportadvice-menu-wrapper:hover{
-        background:var(--teal)
+        background:var(--unionpurple)
     }
-    li#sport-menu-wrapper:hover{
-        background:var(--pink)
+    li#shop-menu-wrapper:hover{
+        background:var(--unionpurple)
     }
-    li#freshers-menu-wrapper:hover{
+    li#welcome-menu-wrapper:hover{
+        background:var(--unionpurple)
+    }
+    li#elections-menu-wrapper:hover{
         background:var(--unionpurple)
     }
 }
@@ -1024,59 +1024,53 @@ li.dashboard-icon:before{
 .menu ul li ul li a::after{
     display:none
 }
-#about-us-menu-wrapper ul{
+#your-union-menu-wrapper ul{
     background:var(--unionpurple);
     border:4px solid var(--unionpurple)
 }
-#about-us-menu-wrapper ul li a:hover{
+ #your-union-menu-wrapper ul li a:hover{
     color:var(--unionpurple)!important
 }
 #student-voice-menu-wrapper ul{
-    background:var(--green)!important;
-    border:4px solid var(--green)
-}
-#student-voice-menu-wrapper ul li a:hover{
-    color:var(--green)!important
-}
-#eat-drink-shop-menu-wrapper ul{
-    background:var(--orange);
-    border:4px solid var(--orange)
-}
-#eat-drink-shop-menu-wrapper ul li a:hover{
-    color:var(--orange)!important
-}
-#whats-on-menu-wrapper ul{
-    display:none!important
-}
-#whats-on-menu-wrapper span:hover{
-    border-bottom:4px solid var(--black)
-}
-#opportunities-menu-wrapper ul{
-    background:var(--purple);
-    border:4px solid var(--purple)
-}
-#opportunities-menu-wrapper ul li a:hover{
-    color:var(--purple)!important
-}
-#support-advice-menu-wrapper ul{
-    background:var(--teal);
-    border:4px solid var(--teal)
-}
- #support-advice-menu-wrapper ul li a:hover{
-    color:var(--teal)!important
-}
-#sport-menu-wrapper ul{
-    background:var(--pink);
-    border:4px solid var(--pink)
-}
-#sport-menu-wrapper ul li a:hover{
-    color:var(--pink)!important
-}
-#freshers-menu-wrapper ul{
     background:var(--unionpurple);
     border:4px solid var(--unionpurple)
 }
-#freshers-menu-wrapper ul li a:hover{
+#student-voice-menu-wrapper ul li a:hover{
+    color:var(--unionpurple)!important
+}
+#opportunities-menu-wrapper ul{
+    background:var(--unionpurple);
+    border:4px solid var(--unionpurple)
+}
+#opportunities-menu-wrapper ul li a:hover{
+    color:var(--unionpurple)!important
+}
+#support-advice-menu-wrapper ul{
+    background:var(--unionpurple);
+    border:4px solid var(--unionpurple)
+}
+#support-advice-menu-wrapper ul li a:hover{
+    color:var(--unionpurple)!important
+}
+#shop-menu-wrapper ul{
+    background:var(--unionpurple);
+    border:4px solid var(--unionpurple)
+}
+ #shop-menu-wrapper ul li a:hover{
+    color:var(--unionpurple)!important
+}
+#welcome-menu-wrapper ul{
+    background:var(--unionpurple);
+    border:4px solid var(--unionpurple)
+}
+ #welcome-menu-wrapper ul li a:hover{
+    color:var(--unionpurple)!important
+}
+#elections-menu-wrapper ul{
+    background:var(--unionpurple);
+    border:4px solid var(--unionpurple)
+}
+ #elections-menu-wrapper ul li a:hover{
     color:var(--unionpurple)!important
 }
 .menu ul li ul li a:hover{
@@ -1210,7 +1204,7 @@ li.dashboard-icon:before{
     color:var(--grey);
     text-transform:capitalize;
     border:0;
-    border-bottom:2px solid #657DBD;
+    border-bottom:2px solid #29235c;
     padding-bottom:2px
 }
 @media only screen and (max-width:762px){
@@ -1631,6 +1625,12 @@ img.img-circle{
     .stripe .stripe-carousel ul li a{
         width:100%
     }
+}
+.left-nav-content,.content-wrap.home-content-wrap.subsites.ninecol.last{
+    width:auto
+}
+.content-wrap.home-content-wrap.subsites.ninecol.last{
+    float:unset!important
 }
 .edit-mode-page{
     clear:both
@@ -4678,7 +4678,7 @@ input#site_search_id{
 }
 .search.page-search{
     width:90%;
-    border:2px solid #657DBD;
+    border:2px solid #29235c;
     border-radius:30px
 }
 .uc-widget-articles-list>.uc-widget-article-five,.uc-widget-article-six,.uc-widget-article-seven,.uc-widget-article-eight,.uc-widget-article-nine,.uc-widget-article-ten{
@@ -4766,7 +4766,7 @@ input#site_search_id{
     text-decoration:underline
 }
 .popular--links__block--icon .fa-solid,.fa-suitcase{
-    color:#657DBD
+    color:#29235c
 }
  .popular--links__block>.popular--links__title{
     color:#fff
@@ -4831,8 +4831,8 @@ a.popular--links__block--link{
         font-size:20px;
         position:absolute;
         margin-left:10px;
-        color:#657DBD;
-        border:1px solid #657DBD;
+        color:#29235c;
+        border:1px solid #29235c;
         bottom:0rem;
         border-radius:50%;
         padding:6px;
@@ -4856,7 +4856,7 @@ a.popular--links__block--link{
     background:#119e9f
 }
 .popular--links__block:nth-child(5){
-    background:#657DBD
+    background:#29235c
 }
 .popular--links__block:nth-child(6){
     background:lightslategray
@@ -4918,7 +4918,7 @@ a.popular--links__block--link{
     margin-bottom:50px!important;
     appearance:button;
     backface-visibility:hidden;
-    background-color:#657DBD;
+    background-color:#29235c;
     border-radius:6px;
     border-width:0;
     box-shadow:rgba(50,50,93,0.1) 0 0 0 1px inset,rgba(50,50,93,0.1) 0 2px 5px 0,rgba(0,0,0,0.07) 0 1px 1px 0;
@@ -5050,7 +5050,7 @@ li .top-menu-name-wrapper:hover{
 }
 @media only screen and (max-width:760px){
     .shopping-cart-menu{
-        background-color:#657DBD!important;
+        background-color:#29235c!important;
         border-radius:.25rem!important
     }
 }
