@@ -13,7 +13,7 @@
     --lightteal:#cce7e7;
     --pink:#e50076;
     --lightpink:#fcc8de;
-    --unionpurple:#29235c;
+    --unionpurple:#647dc6;
     --lightunionpurple:#c9c8d7;
     --grey:#6e7377;
     --lightgrey:#dbdcdd;
@@ -175,26 +175,11 @@ blockquote{
         padding:5px 0
     }
 }
-#uc-page-id-your-union h1,#uc-page-id-sport h2,#uc-page-id-sport h3,#uc-page-id-sport h4{
-    color:var(--pink)!important
-}
-#uc-page-id-student-voice h1,#uc-page-id-supportadvice h2,#uc-page-id-supportadvice h3,#uc-page-id-supportadvice h4{
-    color:var(--teal)
-}
-#uc-page-id-opportunities h1,#uc-page-id-opportunities h2,#uc-page-id-opportunities h3,#uc-page-id-opportunities h4{
-    color:var(--purple)
-}
-#uc-page-id-whats-on h1,#uc-page-id-about-us h2,#uc-page-id-about-us h3,#uc-page-id-about-us h4{
-    color:var(--unionpurple)
+.bgunionpurple {
+    background:var(--unionpurple);
 }
 #uc-page-id-supportadvice h1,#uc-page-id-whats-on h2,#uc-page-id-whats-on h3,#uc-page-id-whats-on h4{
     color:var(--red)
-}
-#uc-page-id-shop h1,#uc-page-id-student-voice h2,#uc-page-id-student-voice h3,#uc-page-id-student-voice h4{
-    color:var(--green)
-}
-#uc-page-id-welcome h1,#uc-page-id-eat-drink-shop h2,#uc-page-id-eat-drink-shop h3,#uc-page-id-eat-drink-shop h4{
-    color:var(--orange)
 }
 .button a{
     font-size:1.2rem;
@@ -213,7 +198,7 @@ blockquote{
 .button.grey a:hover{
     border:3px solid var(--grey);
     transition-duration:.2s;
-    color:var(--grey);
+    color:var(--grey); 
     background:transparent
 }
 .button.teal a{
@@ -1204,7 +1189,7 @@ li.dashboard-icon:before{
     color:var(--grey);
     text-transform:capitalize;
     border:0;
-    border-bottom:2px solid #29235c;
+    border-bottom:2px solid #647dc6;
     padding-bottom:2px
 }
 @media only screen and (max-width:762px){
@@ -4678,7 +4663,7 @@ input#site_search_id{
 }
 .search.page-search{
     width:90%;
-    border:2px solid #29235c;
+    border:2px solid #647dc6;
     border-radius:30px
 }
 .uc-widget-articles-list>.uc-widget-article-five,.uc-widget-article-six,.uc-widget-article-seven,.uc-widget-article-eight,.uc-widget-article-nine,.uc-widget-article-ten{
@@ -4766,7 +4751,7 @@ input#site_search_id{
     text-decoration:underline
 }
 .popular--links__block--icon .fa-solid,.fa-suitcase{
-    color:#29235c
+    color:#647dc6
 }
  .popular--links__block>.popular--links__title{
     color:#fff
@@ -4831,8 +4816,8 @@ a.popular--links__block--link{
         font-size:20px;
         position:absolute;
         margin-left:10px;
-        color:#29235c;
-        border:1px solid #29235c;
+        color:#647dc6;
+        border:1px solid #647dc6;
         bottom:0rem;
         border-radius:50%;
         padding:6px;
@@ -4856,7 +4841,7 @@ a.popular--links__block--link{
     background:#119e9f
 }
 .popular--links__block:nth-child(5){
-    background:#29235c
+    background:#647dc6
 }
 .popular--links__block:nth-child(6){
     background:lightslategray
@@ -4918,7 +4903,7 @@ a.popular--links__block--link{
     margin-bottom:50px!important;
     appearance:button;
     backface-visibility:hidden;
-    background-color:#29235c;
+    background-color:#647dc6;
     border-radius:6px;
     border-width:0;
     box-shadow:rgba(50,50,93,0.1) 0 0 0 1px inset,rgba(50,50,93,0.1) 0 2px 5px 0,rgba(0,0,0,0.07) 0 1px 1px 0;
@@ -5050,7 +5035,7 @@ li .top-menu-name-wrapper:hover{
 }
 @media only screen and (max-width:760px){
     .shopping-cart-menu{
-        background-color:#29235c!important;
+        background-color:#647dc6!important;
         border-radius:.25rem!important
     }
 }

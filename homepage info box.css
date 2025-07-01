@@ -1,0 +1,260 @@
+<style>
+  /* Base styling for the container */
+  #ucsuinfobox-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically (if container has height) */
+    min-height: 10vh; /* Take full viewport height for centering demonstration */
+    padding: 20px; /* Add some padding around the main content */
+    padding-top: 50px; /* Reduced top padding */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+  }
+
+  /* Main infobox wrapper */
+  #ucsuinfobox-wrapper {
+    width: 100%;
+    max-width: 1200px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the wrapper itself */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between sections */
+    border-radius: 15px; /* Rounded corners for the whole wrapper */
+    overflow: hidden; /* Ensure rounded corners clip content */
+  }
+
+  /* Top banner link styling */
+  .ucsuinfobox-banner-link {
+    background-color: #6a8ee8; /* Fallback background color */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative; /* Needed for absolute positioning of image */
+    overflow: hidden; /* Ensure image is clipped to rounded corners */
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect for scaling */
+    min-height: 300px; /* Increased minimum height by 100px */
+    display: flex; /* Use flexbox to center text vertically */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ucsuinfobox-banner-link:hover {
+    transform: scale(1.02); /* Enlarge slightly on hover */
+  }
+
+  /* Image inside the top banner */
+  .ucsuinfobox-banner-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the area, cropping if necessary */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Place image behind text */
+    filter: brightness(0.7); /* Darken image for better text contrast */
+  }
+
+  /* Text container inside the top banner */
+  #ucsuinfobox-banner {
+    position: relative; /* Ensure text is above image */
+    z-index: 2; /* Place text above image */
+  }
+
+  #ucsuinfobox-banner h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white; /* White text color */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow for better readability */
+  }
+
+  #ucsuinfobox-banner p {
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add text shadow */
+  }
+
+  /* Grid for clickable boxes */
+  #ucsuinfobox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+  }
+
+  /* Individual clickable box styling */
+  .ucsuinfobox-item {
+    background-color: #6a8ee8; /* Blue background */
+    border-radius: 15px;
+    overflow: hidden; /* Hide overflowing content, especially for images */
+    position: relative; /* For positioning text over image */
+    text-decoration: none; /* Remove underline from links */
+    color: white;
+    transition: transform 0.2s ease-in-out; /* Smooth hover effects */
+    display: flex; /* Use flexbox for content alignment */
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+    align-items: center; /* Center text horizontally */
+    min-height: 200px; /* Minimum height for boxes */
+  }
+
+  .ucsuinfobox-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+
+  .ucsuinfobox-item img {
+    width: 100%;
+    height: 100%; /* Make image fill the box */
+    object-fit: cover; /* Cover the area, cropping if necessary */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Place image behind text */
+    filter: brightness(0.7); /* Darken image for better text contrast */
+  }
+
+  .ucsuinfobox-item-text {
+    position: relative; /* Ensure text is above image */
+    z-index: 2; /* Place text above image */
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold; /* Bold text */
+    color: white; /* White text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Text shadow for readability */
+  }
+
+  /* Bottom action buttons */
+  #ucsuinfobox-actions {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .ucsuinfobox-action-button {
+    flex: 1; /* Allow buttons to grow and shrink */
+    min-width: 280px; /* Minimum width for buttons */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 15px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .ucsuinfobox-action-button:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-3px);
+  }
+
+  .ucsuinfobox-action-button .arrow {
+    font-size: 1.5em;
+    margin-left: 10px;
+    color: #6a8ee8; /* Blue arrow */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    #ucsuinfobox-banner h2 {
+      font-size: 2em;
+    }
+    #ucsuinfobox-banner p {
+      font-size: 1.2em;
+    }
+    .ucsuinfobox-item-text {
+      font-size: 1em;
+    }
+    .ucsuinfobox-banner-link {
+      padding: 30px 15px; /* Adjust padding for smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    #ucsuinfobox-container {
+      padding: 10px;
+    }
+    #ucsuinfobox-wrapper {
+      gap: 15px;
+    }
+    .ucsuinfobox-banner-link {
+      padding: 20px 15px;
+    }
+    #ucsuinfobox-banner h2 {
+      font-size: 1.8em;
+    }
+    #ucsuinfobox-banner p {
+      font-size: 1em;
+    }
+    #ucsuinfobox-grid {
+      grid-template-columns: 1fr; /* Stack boxes on very small screens */
+      gap: 15px;
+    }
+    .ucsuinfobox-item {
+      min-height: 180px;
+    }
+    .ucsuinfobox-item-text {
+      font-size: 0.9em;
+    }
+    .ucsuinfobox-action-button {
+      min-width: 90%;
+      padding: 12px 15px;
+    }
+  }
+</style>
+
+<div id="ucsuinfobox-container">
+  <div id="ucsuinfobox-wrapper">
+    <!-- Top Banner Section (Now clickable with image and animation) -->
+    <a href="#" class="ucsuinfobox-banner-link">
+      <img src="https://assets.prod.unioncloud-internal.com/image/images/609152/original/merchbanner.png" alt="University Banner" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609152/original/merchbanner.png';" />
+      <div id="ucsuinfobox-banner">
+        <h2>University of Cumbria</h2>
+        <p>Hoodies</p>
+      </div>
+    </a>
+
+    <!-- Grid of Clickable Info Boxes -->
+    <div id="ucsuinfobox-grid">
+      <a href="#" class="ucsuinfobox-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Student Society" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
+        <span class="ucsuinfobox-item-text">Wanting to join or create a society?</span>
+      </a>
+
+      <a href="#" class="ucsuinfobox-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Current Events" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
+        <span class="ucsuinfobox-item-text">Check out our current events</span>
+      </a>
+
+      <a href="#" class="ucsuinfobox-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Advice & Support" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
+        <span class="ucsuinfobox-item-text">Need advice or support?</span>
+      </a>
+
+      <a href="#" class="ucsuinfobox-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Current Articles" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
+        <span class="ucsuinfobox-item-text">Check out our current articles</span>
+      </a>
+    </div>
+
+    <!-- Bottom Action Buttons -->
+    <div id="ucsuinfobox-actions">
+      <a href="#" class="ucsuinfobox-action-button">
+        View or vote on our current ideas
+        <span class="arrow">&rarr;</span>
+      </a>
+      <a href="#" class="ucsuinfobox-action-button">
+        Have you got a good idea?
+        <span class="arrow">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
