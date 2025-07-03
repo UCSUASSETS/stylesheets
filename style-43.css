@@ -388,10 +388,10 @@ p#notice.success{
     border:0 none
 }
 #top-nav-level-one-who-rulez{
-    background:red
+    background:#647dc6
 }
 #top-nav-level-one-menu-two{
-    background:orange
+    background:#647dc6
 }
 .union-footer .threecol.column-content{
     background:url(https://assets.prod.unioncloud-internal.com/image/images/607451/original/footer-hr-b15d76c7c177fa7aded7eaf4251179fd0dd81eff2d5847377b76e92aadaead90.png) no-repeat scroll right center transparent
@@ -407,7 +407,8 @@ p#notice.success{
     cursor:pointer
 }
 .menu #student-voice-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #FFCD00
+    background:none repeat scroll 0 0 #647dc6;
+
 }
 #top-nav-level-one-student-events{
     background:url(/images/default/images/-stu-ents.png) no-repeat scroll top center transparent;
@@ -420,7 +421,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #student-events-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #E20621;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-student-advice{
@@ -434,7 +435,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #student-advice-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #119E9F;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-student-activities{
@@ -448,7 +449,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #student-activities-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #2F2D78;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-students-employability{
@@ -462,7 +463,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #students-employability-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #82368C;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-student-democracy{
@@ -476,7 +477,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #student-democracy-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #4DAE40;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-student-engagement{
@@ -490,7 +491,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #student-engagement-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #F29025;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-ucsu-sports{
@@ -504,7 +505,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #ucsu-sports-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #E5007F;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-ucsu-venue{
@@ -518,7 +519,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #ucsu-venue-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #8C1A31;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 #top-nav-level-one-ucsu-shop{
@@ -532,7 +533,7 @@ p#notice.success{
     cursor:pointer
 }
 .menu #ucsu-shop-menu-wrapper .top-submenu-wrapper ul{
-    background:none repeat scroll 0 0 #486BB1;
+    background:none repeat scroll 0 0 #647dc6;
     color:#ffffff
 }
 .menu-wrap{

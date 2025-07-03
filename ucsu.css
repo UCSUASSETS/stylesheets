@@ -1013,7 +1013,7 @@ li.dashboard-icon:before{
     background:var(--unionpurple);
     border:4px solid var(--unionpurple)
 }
- #your-union-menu-wrapper ul li a:hover{
+#your-union-menu-wrapper ul li a:hover{
     color:var(--unionpurple)!important
 }
 #student-voice-menu-wrapper ul{
@@ -1041,21 +1041,21 @@ li.dashboard-icon:before{
     background:var(--unionpurple);
     border:4px solid var(--unionpurple)
 }
- #shop-menu-wrapper ul li a:hover{
+#shop-menu-wrapper ul li a:hover{
     color:var(--unionpurple)!important
 }
 #welcome-menu-wrapper ul{
     background:var(--unionpurple);
     border:4px solid var(--unionpurple)
 }
- #welcome-menu-wrapper ul li a:hover{
+#welcome-menu-wrapper ul li a:hover{
     color:var(--unionpurple)!important
 }
 #elections-menu-wrapper ul{
     background:var(--unionpurple);
     border:4px solid var(--unionpurple)
 }
- #elections-menu-wrapper ul li a:hover{
+#elections-menu-wrapper ul li a:hover{
     color:var(--unionpurple)!important
 }
 .menu ul li ul li a:hover{
@@ -1690,30 +1690,30 @@ body>div.wrapper>div.row.content>div.row>div.content-wrap.home-content-wrap.subs
     color:var(--unionpurple)
 }
 #uc-page-id-about-us #uc-left-navigation a.selected.page{
-    background:var(--lightunionpurple);
+    background:var(--unionpurple);
     border:3px solid var(--unionpurple);
     color:var(--unionpurple)
 }
 #uc-page-id-student-voice .left-nav-content .tree-navigation-structure #uc-left-navigation a{
-    background:var(--green)
+    background:var(--unionpurple)
 }
 #uc-page-id-student-voice .left-nav-content .tree-navigation-structure #uc-left-navigation a:hover{
     background:#fff;
-    border:3px solid var(--green);
+    border:3px solid var(--unionpurple);
     transition-duration:.3s;
     color:var(--green)
 }
 #uc-page-id-student-voice #uc-left-navigation a.selected.page{
-    background:var(--lightgreen);
-    border:3px solid var(--green);
-    color:var(--green)
+    background:var(--unionpurple);
+    border:3px solid var(--unionpurple);
+    color:var(--unionpurple)
 }
 #uc-page-id-eat-drink-shop .left-nav-content .tree-navigation-structure #uc-left-navigation a{
-    background:var(--orange)
+    background:var(--unionpurple)
 }
 #uc-page-id-eat-drink-shop .left-nav-content .tree-navigation-structure #uc-left-navigation a:hover{
     background:#fff;
-    border:3px solid var(--orange);
+    border:3px solid var(--unionpurple);
     transition-duration:.3s;
     color:var(--orange)
 }
@@ -2037,7 +2037,7 @@ span.custom-title::after{
     background:var(--lightunionpurple)
 }
 #uc-page-id-student-voice #breadcrumb-container{
-    background:var(--lightgreen)
+    background:var(--unionpurple)
 }
 #uc-page-id-eat-drink-shop #breadcrumb-container{
     background:var(--lightorange)
@@ -4285,7 +4285,7 @@ ul.uc-student-voice-widget-category{
     height:max-content
 }
 .uc-student-voice-widget-category li.selected{
-    background:var(--green);
+    background:var(--unionpurple);
     border-radius:0;
     padding:10px 30px;
     text-align:center;
@@ -4293,7 +4293,7 @@ ul.uc-student-voice-widget-category{
 }
 .uc-student-voice-widget-category li{
     padding:10px 30px;
-    background:var(--lightgreen);
+    background:var(--unionpurple);
     border-radius:0;
     flex:1;
     text-align:center
@@ -4311,7 +4311,7 @@ ul.uc-student-voice-widget-category{
 }
 .uc-student-voice-widget-wrapper li.jcarousel-item{
     margin:0;
-    background:var(--lightgreen);
+    background:var(--unionpurple);
     padding:0
 }
 .uc-widget-student-voices-wrapper .uc-sv-widget-title a{
