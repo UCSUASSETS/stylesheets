@@ -361,7 +361,7 @@ p#notice.success{
     position:absolute
 }
 .menu .top-submenu-wrapper ul{
-    background:transparent none repeat scroll 0 0;
+    background:#647dc6 none repeat scroll 0 0;
     left:0;
     min-height:25px;
     right:0;
