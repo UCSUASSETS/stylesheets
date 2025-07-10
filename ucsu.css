@@ -26,6 +26,12 @@
 html{
     background:0
 }
+.bgunionpurple {
+    background: #647dc6;
+}
+#bgunionpurple {
+    background: #647dc6;
+}
 p,a,button,body,span,ol li,ul li,.content .row .content-wrap strong,.content .row .content-wrap p strong,#uc-articles-news .page-separator,.uc-search-articles label,#uc-articles-news #load_more_article a,#event-homepage #load-more-events a,#event-homepage .page-separator-wrapper .page-separator,.event-box .event-name,.uc-opportunity-title a,.uc-vol-opp-module-wrapper .page-separator,.uc-search-opportunity label,.uc-search-opportunity-filters h3,.content .uc-opp-right-panel-search-wrapper h2,.content .uc-result-count span,.content .uc-result-count strong,.uc-vol-edit-profile .uc-vol-profile-title-mobile,.uc-vol-multi-checkbox-list li label,.contentBoxes strong,.event-details p,.uc-articles-block .uc-articles-summary,.registration-form ol li.unionemail p,.registration-form ol li.nusemail p,.registration-form ol li.commercialemail p,.registration-form ol li.nusemail .label-unionemail-wrapper,#shopping-cart .orderRow,.wrapper .content .row .content-wrap p,#uc-sv-main-wrapper .uc-sv-module-details-content-wrapper p,.featured-news-block .featured-text,.articleDetails .time,.articleDetails p,.articles p,.contentBoxes p,.latestEventLeftSide li .eventDateTime,.group-details,.featured-news-block .featured-text,.articleDetails .time,.articleDetails p,.articles p,.contentBoxes p,.latestEventLeftSide li .eventDateTime,.group-details,.uc-opportunity-brief-text,#uc-vol-opp-details-page .uc-opp-add-info-role-wrapper,#uc-vol-opp-details-page .uc-opp-add-info-responsibility-wrapper,#uc-vol-opp-details-page .uc-opp-add-info-task-wrapper,#uc-vol-opp-details-page p,.registration-form ol li.input label,.uc-widget-articles-container ul.uc-widget-articles-list li .article-description,.join-this-group.button-top a,.join-this-group.button-bottom a,.checkout-button,.uc-total-order dl dt,#share-facebook-list p.order-name,#share-twitter-list p.order-name,.share-facebook-listing li .add-share-text,.share-twitter-listing li .add-share-text,#uc-group-homepage .page-separator-wrapper .page-separator,#uc-group-homepage #uc-more-group-search a.uc-load-more-groups,.uc-acc-content dl dt,#share-facebook-list p.select-message,#share-twitter-list p.select-message,.quick-sharing-msg,.quick-breadcrumb,.quick-breadcrumb a,.facebook-share-button,.facebook-share-button,#e-shop .product-filter-panel .count-product-found,#e-shop .buy-this-now input,#uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a,.content .uc-sv-post-idea-petition a,.uc-sv-post-idea-petition a,.uc-sv-author-name,.uc-sv-module-idea-wrapper p.time,.uc-sv-module-more a:hover,.uc-sv-module-idea-wrapper a.uc-sv-click-like-dislike,#uc-sv-left-panel #load_more_sv a,.uc-sv-idea label,.uc-sv-petition label,#uc-sv-nav-tab-panel ul li a,.uc-sv-module-idea-wrapper a.uc-sv-click-votenow,.uc-sv-module-more a.uc-sv-comments,.uc-sv-module-more a.uc-sv-more,#uc-sv-main-wrapper,.uc-vol-opp-module #load_more_opp a,.content .uc-result-count,.uc-vol-opp-module-wrapper .page-separator,.uc-opportunity-title a,.uc-opportunity-min-commit-level,.uc-search-opportunity label,.uc-vol-from-date label,.uc-vol-to-date label,.uc-availability-filter .uc-availability-days li:first-child,.uc-availability-filter .uc-availability-row li:first-child,.uc-filter-checkbox label,#uc-vol-opp-details-page .uc-opp-button-link,#uc-vol-opp-details-page .uc-opp-button-link,#uc-resource-left-panel-listing .page-separator,.uc-doc-upload-time,.uc-resource-disable-download,.uc-resource-download-link,.uc-resource-details-disable-link,.uc-resource-details-link,#resource-homepage #load_more_doc a,input,textarea,select,button,.content .uc-result-count span,.content .uc-result-count strong,#uc-articles-news .page-separator,.uc-articles-block .uc-articles-summary,.uc-articles-block .uc-news-headline .uc-news-date-time a,#uc-articles-news #load_more_article a,.uc-articles-tags .uc-articles-tags-heading,.uc-events-tags .uc-events-tags-heading,.uc-groups-tags .uc-groups-tags-heading,.uc-resources-tags .uc-resources-tags-heading,strong,.uc-positions,.toggle-details,.vote-completed,.uc-position-details a,.uc-pending-status,.uc-completed-status,.uc-total-status,.view-manifesto-details-wrapper p,.cart-delivery-mode .shipping-address .address-form,.uc-payment-page,.for-student-update .user-profile-picture-wrapper,.for-admin-update .user-profile-picture-wrapper,.ticket-print-block,.uc-banner-hover-wrapper,.uc-sv-form,.uc-sv-form ol li select,input,.uc-sv-button .buttonLink,.tree-navigation,#memberShipDisplay .memberShipType,.slideContent h3,#search-result .src-result .result-body p,#search-result .src-result .result-body ol,#search-result .src-result .result-body ul,.tree-navigation ul li.selected a,.tree-navigation .latestEventLeftSide li .eventVenue,.tree-navigation ul li a{
     font-family:var(--roboto)
 }
@@ -34,6 +40,14 @@ p,a,button,body,span,ol li,ul li,.content .row .content-wrap strong,.content .ro
 }
 a{
     color:#000
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: auto !important;
 }
 .content-wrap a{
     font-weight:bold!important
@@ -3795,7 +3809,7 @@ ul#uc-sv-navigation li.inactive a{
     display:block
 }
 #uc-sv-main-wrapper .uc-add-voice span.text-left::after{
-    content:"Submit an idea or start a petition to improve NTU student life today.";
+    content:"Submit an idea or start a petition to improve UoC student life today.";
     visibility:visible;
     display:block
 }

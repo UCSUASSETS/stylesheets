@@ -214,8 +214,8 @@
 <div id="ucsuinfobox-container">
   <div id="ucsuinfobox-wrapper">
     <!-- Top Banner Section (Now clickable with image and animation) -->
-    <a href="#" class="ucsuinfobox-banner-link">
-      <img src="https://assets.prod.unioncloud-internal.com/image/images/609152/original/merchbanner.png" alt="University Banner" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609152/original/merchbanner.png';" />
+    <a href="https://personalised.clothing/universityofcumbriastudentsunion" class="ucsuinfobox-banner-link">
+      <img src="https://assets.prod.unioncloud-internal.com/image/images/609152/original/merchbanner.png" alt="Merch Banner" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609152/original/merchbanner.png';" />
       <div id="ucsuinfobox-banner">
         <h2>University of Cumbria</h2>
         <p>Hoodies</p>
@@ -224,22 +224,22 @@
 
     <!-- Grid of Clickable Info Boxes -->
     <div id="ucsuinfobox-grid">
-      <a href="#" class="ucsuinfobox-item">
+      <a href="https://www.ucsu.me/groups?/join-a-group" class="ucsuinfobox-item">
         <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Student Society" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
         <span class="ucsuinfobox-item-text">Wanting to join or create a society?</span>
       </a>
 
-      <a href="#" class="ucsuinfobox-item">
+      <a href="https://www.ucsu.me/events" class="ucsuinfobox-item">
         <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Current Events" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
         <span class="ucsuinfobox-item-text">Check out our current events</span>
       </a>
 
-      <a href="#" class="ucsuinfobox-item">
+      <a href="https://www.ucsu.me/2025-wip-navigation-bar/support-advice/support-advice" class="ucsuinfobox-item">
         <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Advice & Support" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
         <span class="ucsuinfobox-item-text">Need advice or support?</span>
       </a>
 
-      <a href="#" class="ucsuinfobox-item">
+      <a href="https://www.ucsu.me/articles" class="ucsuinfobox-item">
         <img src="https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png" alt="Current Articles" onerror="this.onerror=null;this.src='https://assets.prod.unioncloud-internal.com/image/images/609151/original/infoboxprink.png';" />
         <span class="ucsuinfobox-item-text">Check out our current articles</span>
       </a>
@@ -247,11 +247,11 @@
 
     <!-- Bottom Action Buttons -->
     <div id="ucsuinfobox-actions">
-      <a href="#" class="ucsuinfobox-action-button">
+      <a href="www.ucsu.me/thestudentvoice" class="ucsuinfobox-action-button">
         View or vote on our current ideas
         <span class="arrow">&rarr;</span>
       </a>
-      <a href="#" class="ucsuinfobox-action-button">
+      <a href="https://www.ucsu.me/2025-wip-navigation-bar/student-voice/how-to-submit-a-idea" class="ucsuinfobox-action-button">
         Have you got a good idea?
         <span class="arrow">&rarr;</span>
       </a>

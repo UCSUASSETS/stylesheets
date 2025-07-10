@@ -1,0 +1,229 @@
+<!-- Main container for the UCSU Executive Team grid -->
+<div id="ucsuexecgrid-container">
+    <!-- Grid Item 1 -->
+    <div id="ucsuexecgrid-item-1" class="ucsuexecgrid-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609140/original/Academic_Lead_Officer.png" alt="Team Member 1" class="ucsuexecgrid-image">
+        <div class="ucsuexecgrid-text-overlay">
+            <h3 class="ucsuexecgrid-name">Academic Lead Officer</h3>
+        </div>
+    </div>
+
+    <!-- Grid Item 2 -->
+    <div id="ucsuexecgrid-item-2" class="ucsuexecgrid-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609144/original/Wellbeing_Lead_Officer.png" alt="Team Member 2" class="ucsuexecgrid-image">
+        <div class="ucsuexecgrid-text-overlay">
+            <h3 class="ucsuexecgrid-name">Wellbeing Lead Officer</h3>
+        </div>
+    </div>
+
+    <!-- Grid Item 3 -->
+    <div id="ucsuexecgrid-item-3" class="ucsuexecgrid-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609143/original/Institute_Officer.png" alt="Team Member 3" class="ucsuexecgrid-image">
+        <div class="ucsuexecgrid-text-overlay">
+            <h3 class="ucsuexecgrid-name">Institute Officer</h3>
+        </div>
+    </div>
+
+    <!-- Grid Item 4 -->
+    <div id="ucsuexecgrid-item-4" class="ucsuexecgrid-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609142/original/EDI_Officer.png" alt="Team Member 4" class="ucsuexecgrid-image">
+        <div class="ucsuexecgrid-text-overlay">
+            <h3 class="ucsuexecgrid-name">EDI Officer</h3>
+        </div>
+    </div>
+
+    <!-- Grid Item 5 -->
+    <div id="ucsuexecgrid-item-5" class="ucsuexecgrid-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609146/original/Mature_Student_Officer.png" alt="Team Member 5" class="ucsuexecgrid-image">
+        <div class="ucsuexecgrid-text-overlay">
+            <h3 class="ucsuexecgrid-name">Mature Students Officer</h3>
+        </div>
+    </div>
+
+    <!-- Grid Item 6 -->
+    <div id="ucsuexecgrid-item-6" class="ucsuexecgrid-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609136/original/Online_Officer.png" alt="Team Member 6" class="ucsuexecgrid-image">
+        <div class="ucsuexecgrid-text-overlay">
+            <h3 class="ucsuexecgrid-name">Online Learner Officer</h3>
+        </div>
+    </div>
+
+    <!-- Grid Item 7 -->
+    <div id="ucsuexecgrid-item-6" class="ucsuexecgrid-item">
+        <img src="https://assets.prod.unioncloud-internal.com/image/images/609145/original/Social_Officer.png" alt="Team Member 6" class="ucsuexecgrid-image">
+        <div class="ucsuexecgrid-text-overlay">
+            <h3 class="ucsuexecgrid-name">Social Officer</h3>
+        </div>
+    </div>
+
+    <!-- Grid Item 8 (The clickable box with hover animation) -->
+    <a href="https://example.com/learn-more" id="ucsuexecgrid-item-8" class="ucsuexecgrid-item ucsuexecgrid-clickable-item">
+        <img src="https://i.imgur.com/3vVuwzc.png" alt="Learn More" class="ucsuexecgrid-image">
+        </div>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main container for the grid */
+#ucsuexecgrid-container {
+    display: grid;
+    /* Default: 4 columns for larger screens, using fluid units */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem; /* Space between grid items */
+    max-width: 1200px; /* Max width to keep content contained */
+    margin: 3rem auto; /* Center the grid horizontally with top/bottom margin */
+    padding: 1rem; /* Padding inside the container */
+    justify-content: center; /* Center grid items if they don't fill the row */
+    align-items: stretch; /* Ensure items stretch to fill available height */
+}
+
+/* Styling for individual grid items */
+.ucsuexecgrid-item {
+    background-color: #ffffff;
+    border-radius: 0.75rem; /* Rounded corners */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Subtle shadow */
+    overflow: hidden; /* Important for image zoom effect */
+    position: relative; /* For positioning text overlay */
+    display: flex; /* Flexbox to manage image and overlay */
+    flex-direction: column; /* Stack image and overlay */
+    height: 100%; /* Ensure all items are the same height */
+    text-decoration: none; /* Remove underline for anchor tag items */
+    color: inherit; /* Inherit text color for anchor tag items */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for item hover */
+}
+
+.ucsuexecgrid-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover for all items */
+}
+
+/* Image styling within grid items */
+.ucsuexecgrid-image {
+    width: 100%; /* Image takes full width of its container */
+    height: 100%; /* Image takes full height */
+    object-fit: cover; /* Cover the area, cropping if necessary */
+    display: block; /* Remove extra space below image */
+    transition: transform 0.3s ease-in-out; /* Transition for zoom animation */
+    pointer-events: none; /* Prevent image from intercepting click on anchor */
+}
+
+/* Text overlay styling */
+.ucsuexecgrid-text-overlay {
+    position: absolute; /* Position over the image */
+    bottom: 0; /* Align to the bottom */
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Gradient overlay for readability */
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.ucsuexecgrid-name {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem; /* Larger font for name */
+    font-weight: 700; /* Bold */
+}
+
+.ucsuexecgrid-role {
+    margin: 0;
+    font-size: 0.9rem; /* Smaller font for role */
+    line-height: 1.4;
+}
+
+/* Specific styling for the clickable item (last box) */
+.ucsuexecgrid-clickable-item {
+    cursor: pointer; /* Indicate it's clickable */
+    background-color: #667eea; /* A distinct background color for the clickable box */
+    color: #ffffff; /* White text for clickable box */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Stronger shadow */
+}
+
+.ucsuexecgrid-clickable-item .ucsuexecgrid-text-overlay {
+    background: rgba(0, 0, 0, 0.7); /* Solid background for more focus */
+}
+
+/* Hover animation for the image within the clickable item */
+.ucsuexecgrid-clickable-item:hover .ucsuexecgrid-image {
+    transform: scale(1.08); /* Zoom effect on hover */
+}
+
+/* Responsive adjustments */
+
+/* For tablets and smaller desktops (e.g., up to 1024px) */
+@media (max-width: 1024px) {
+    #ucsuexecgrid-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    }
+}
+
+/* For larger phones and smaller tablets (e.g., up to 768px) */
+@media (max-width: 768px) {
+    #ucsuexecgrid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        gap: 1rem;
+    }
+    .ucsuexecgrid-name {
+        font-size: 1.1rem;
+    }
+    .ucsuexecgrid-role {
+        font-size: 0.85rem;
+    }
+}
+
+/* For small phones (e.g., up to 480px) */
+@media (max-width: 480px) {
+    #ucsuexecgrid-container {
+        grid-template-columns: 1fr; /* 1 column */
+        margin: 1.5rem auto;
+    }
+    .ucsuexecgrid-text-overlay {
+        padding: 0.75rem;
+    }
+    .ucsuexecgrid-name {
+        font-size: 1rem;
+    }
+    .ucsuexecgrid-role {
+        font-size: 0.8rem;
+    }
+}
