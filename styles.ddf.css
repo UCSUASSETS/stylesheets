@@ -205,20 +205,6 @@ p{
 :-ms-input-placeholder{
     opacity:1!important
 }
-.form-control,input[type=date],input[type=email],input[type=number],input[type=password],input[type=text],select,textarea{
-    width:100%;
-    margin:0;
-    outline:none;
-    font-weight:400;
-    color:#555;
-    display:block;
-    height:auto;
-    font-size:.85rem;
-    padding:12px 10px;
-    box-shadow:none;
-    border:1px solid #ced4da;
-    border-radius:.25rem
-}
 .form-control:focus,input[type=date]:focus,input[type=email]:focus,input[type=number]:focus,input[type=password]:focus,input[type=text]:focus,select:focus,textarea:focus{
     color:#555;
     outline:0;
