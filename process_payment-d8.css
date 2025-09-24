@@ -245,12 +245,10 @@
     transition:transform 0.3s
 }
 div#expiration-month{
-    width:25px
+    width:50px
 }
 div#expiration-year{
-    width:25px;
-    margin-top:-72px;
-    margin-left:56px
+    width:50px;
 }
 div.content .row .content-wrap p{
     font-family:'CenturyGothic',Arial,sans-serif;
